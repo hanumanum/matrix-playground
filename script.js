@@ -68,7 +68,7 @@ $(".changeMatrix").click(function(){
       break;
     case "Numbers":
       matrix  = matrixNumbers;
-      matrixPlace.innerHTML = printMatrixText(matrix,y,x);
+      matrixPlace.innerHTML = printMatrixText(matrix,y,x,false);
       break;
     default:
       break;
