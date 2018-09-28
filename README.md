@@ -1,5 +1,5 @@
-# matrix better explained
-sandbox for matrix explanation in javascript
+# Exersice find indexes of matrix
+sandbox for matrix
 
 ![](matrix.png)
 ![](matrix2.png)
