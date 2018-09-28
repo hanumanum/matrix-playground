@@ -1,4 +1,4 @@
-# Exersice find indexes of matrix
+# Exersice "find indexes of matrix"
 sandbox for matrix
 
 ![](matrix.png)
