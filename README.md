@@ -1,5 +1,6 @@
-# Exersice "find indexes of matrix"
+# Exersice "find indexes in matrix"
 sandbox for matrix
+https://hanumanum.github.io/matrix-playground/
 
 ![](matrix.png)
 ![](matrix2.png)
