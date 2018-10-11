@@ -1,6 +1,14 @@
 let messages ={
-  text1:"",
-  text2:"",
+  text1:"We have this matrix",
+  text2:"Find indexes of highlighted value",
+  text3:"You also can try another matrixes",
+  check:"Check",
+  matrixes:{
+    color:"Color Strings",
+    strings:"Strings",
+    booleans:"Booleans",
+    numbers:"Numbers"
+  },
   responses:{
     correct:"Correct: You found that !!!",
     incorrectOutofrange:"Incorrect: Your index is out of the range. Index must be less than ",
@@ -73,4 +81,11 @@ $(".changeMatrix").click(function(){
     default:
       break;
   }
+})
+
+
+$(".lang").click(function(){
+  currLang = $(this).text().toLowerCase();
+  $(".lang").removeClass("lang-active");
+  $(this).addClass("lang-active");
 })

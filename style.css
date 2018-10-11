@@ -67,3 +67,24 @@ div#corectness {
   font-size: 16px;
   font-weight: normal;
 } 
+
+
+.lang{
+  width: 33px;
+  height: 30px;
+  background-color: #229954;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px grey;
+  cursor: pointer;
+  float:right;
+}
+
+.lang-active, .lang:hover{
+  background-color: #3498DB;
+}
+
+.lang-list{
+  margin-top:20px;
+}
