@@ -1,22 +1,4 @@
-let messages ={
-  text1:"We have this matrix",
-  text2:"Find indexes of highlighted value",
-  text3:"You also can try another matrixes",
-  check:"Check",
-  matrixes:{
-    color:"Color Strings",
-    strings:"Strings",
-    booleans:"Booleans",
-    numbers:"Numbers"
-  },
-  responses:{
-    correct:"Correct: You found that !!!",
-    incorrectOutofrange:"Incorrect: Your index is out of the range. Index must be less than ",
-    incorrectEmpty:"Incorrect: Empty, write indexes",
-    incorrect:"Incorrect: Try again ",
-  }
-}
-
+translateAll("en")
 
 let dim = 10;
 let x = getRandomInt(0,dim);
@@ -88,4 +70,7 @@ $(".lang").click(function(){
   currLang = $(this).text().toLowerCase();
   $(".lang").removeClass("lang-active");
   $(this).addClass("lang-active");
+  translateAll(currLang)
 })
+
+

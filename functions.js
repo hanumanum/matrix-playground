@@ -89,3 +89,30 @@ function copyMatrixByValue(matrix) {
     var newMatrix = JSON.parse(JSON.stringify(matrix));
     return newMatrix;
 }
+
+
+function translateAll(lang){
+    $("#corectness").text("")
+    $("#corectness").removeAttr('class')
+    switch (lang) {
+        case "hy":
+            messages = messagesHY;
+            break;
+        case "fr":
+            messages = messagesFR;
+            break;
+        case "en":
+            messages = messagesEN;
+            break;
+        case "ru":
+            messages = messagesRU;
+            break;
+        default:
+            alert("Language Error")
+    }
+
+    for(var key in messages){
+        var m = $('[string="'+key+'"]').text(messages[key])
+    }
+    
+}

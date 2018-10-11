@@ -8,27 +8,29 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container">
     <div class="row langs">
-        <div class="col col-lg-8">
+      <div class="col col-lg-8">
 
-        </div>
-        <div class="col col-lg-4 lang-list">
-            <div id="ru" class="lang">RU</div>
-            <div id="en" class="lang lang-active">EN</div>
-            <div id="fr" class="lang">FR</div>
-            <div id="hy" class="lang">HY</div>
-        </div>
+      </div>
+      <div class="col col-lg-4 lang-list">
+        <div id="ru" class="lang">RU</div>
+        <div id="en" class="lang lang-active">EN</div>
+        <div id="fr" class="lang">FR</div>
+        <div id="hy" class="lang">HY</div>
+      </div>
     </div>
     <div class="row texts">
-      <i class="fas fa-hand-point-right"></i> We have this matrix
+      <i class="fas fa-hand-point-right"></i> <span string="text1">We have this matrix</span>
     </div>
     <div class="row">
       <div class="col">
@@ -38,32 +40,31 @@
       </div>
     </div>
     <div class="row texts">
-        <i class="fas fa-hand-point-right"></i> Find indexes of highlighted value 
+      <i class="fas fa-hand-point-right"></i> <span string="text2">indexes of highlighted value</span>
     </div>
 
     <div class="row">
       <div class="col col-xl-4 matrixer">
         matrix[<input type="text" id="y" class="form-control inputs">][<input type="text" id="x" class="form-control inputs">]
-        <div id="corectness"></div>  
       </div>
       <div class="col col-xl-3">
-        <button type="button" class="btn btn-primary" id="check">Check</button>
+        <button type="button" class="btn btn-primary" id="check"><span string="check">Check</span></button>
       </div>
-     
     </div>
-
+    <div id="corectness"></div>
     <div class="row texts">
-      <i class="fas fa-hand-point-right"></i> You also can try another matrixes
+      <i class="fas fa-hand-point-right"></i> <span string="text3">You also can try another matrixes</span>
     </div>
     <div class="row">
-        <button type="button" class="btn btn-sm btn-primary active examples changeMatrix">Color Strings</button>
-        <button type="button" class="btn btn-sm btn-primary examples changeMatrix">Strings</button>
-        <button type="button" class="btn btn-sm btn-primary examples changeMatrix">Booleans</button>
-        <button type="button" class="btn btn-sm btn-primary examples changeMatrix">Numbers</button>
+      <button type="button" string="color" class="btn btn-sm btn-primary active examples changeMatrix">Color Strings</button>
+      <button type="button" string="strings" class="btn btn-sm btn-primary examples changeMatrix">Strings</button>
+      <button type="button" string="booleans" class="btn btn-sm btn-primary examples changeMatrix">Booleans</button>
+      <button type="button" string="numbers" class="btn btn-sm btn-primary examples changeMatrix">Numbers</button>
     </div>
 
 
   </div>
+  <script src="messeges.js"></script>
   <script src="matrixes.js"></script>
   <script src="functions.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
