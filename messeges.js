@@ -8,7 +8,7 @@ let messagesHY ={
     booleans:"Բուլյան",
     numbers:"Թվեր",
     responses:{
-      correct:"Ճի՛շտ է: Գրար",
+      correct:"Ճի՛շտ է: Գտար",
       incorrectOutofrange:"Սխալ է՝ Ինդեքսը միջակայքից դուրս է. Ինդեքսը պիտի լինի ոչ ավել քան ",
       incorrectEmpty:"Սխալ է՝ Դատարկ է, գրիր ինդեքսներ",
       incorrect:"Սխալ է՝ փորձիր նորից ",
